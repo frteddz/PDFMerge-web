@@ -4,6 +4,7 @@ import react from "@vitejs/plugin-react";
 const host = process.env.TAURI_DEV_HOST;
 
 export default defineConfig(async () => ({
+  base: process.env.GH_PAGES ? "/PDFMerge-web/" : "/",
   plugins: [react()],
   clearScreen: false,
   server: {
