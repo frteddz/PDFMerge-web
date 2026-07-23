@@ -2,6 +2,8 @@
 
 > Modern PDF toolkit — merge, split, rotate, and rearrange pages right in your browser.
 
+This repository contains only the built distribution files. The source code is not publicly available.
+
 ## Features
 
 - Merge multiple PDF files into a single document
